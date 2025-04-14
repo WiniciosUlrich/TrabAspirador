@@ -1,0 +1,6 @@
+A solução é extensível para 3x3 ou 6x6?
+Sim. Basta ajustar os limites da área útil (ex: range(1, 4) para 3x3 ou range(1, 7) para 6x6). O restante do código funciona normalmente.
+
+B É possível limpar todo o espaço?
+Sim. O agente localiza e alcança todas as sujeiras com busca (BFS) e só para quando o ambiente está completamente limpo.
+
